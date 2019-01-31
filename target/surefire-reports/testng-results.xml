@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47" started-at="2019-01-31T11:10:48Z" finished-at="2019-01-31T11:10:49Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="47" started-at="2019-01-31T11:10:48Z" finished-at="2019-01-31T11:10:49Z">
+      <class name="IsomorphicTests">
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String, java.lang.String)[pri:0, instance:IsomorphicTests@c5d53c3]" name="testInvalidInputs" duration-ms="16" started-at="2019-01-31T16:40:49Z" data-provider="IsomorphicInvalidInputs" finished-at="2019-01-31T16:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+        <test-method status="PASS" signature="testInvalidInputs(java.lang.String, java.lang.String)[pri:0, instance:IsomorphicTests@c5d53c3]" name="testInvalidInputs" duration-ms="1" started-at="2019-01-31T16:40:49Z" data-provider="IsomorphicInvalidInputs" finished-at="2019-01-31T16:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xzz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidInputs -->
+        <test-method status="PASS" signature="testValidInputs(java.lang.String, java.lang.String)[pri:0, instance:IsomorphicTests@c5d53c3]" name="testValidInputs" duration-ms="0" started-at="2019-01-31T16:40:49Z" data-provider="IsomorphicInputs" finished-at="2019-01-31T16:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xxy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidInputs -->
+        <test-method status="PASS" signature="testValidInputs(java.lang.String, java.lang.String)[pri:0, instance:IsomorphicTests@c5d53c3]" name="testValidInputs" duration-ms="0" started-at="2019-01-31T16:40:49Z" data-provider="IsomorphicInputs" finished-at="2019-01-31T16:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[egg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[add]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidInputs -->
+        <test-method status="PASS" signature="testValidInputs(java.lang.String, java.lang.String)[pri:0, instance:IsomorphicTests@c5d53c3]" name="testValidInputs" duration-ms="0" started-at="2019-01-31T16:40:49Z" data-provider="IsomorphicInputs" finished-at="2019-01-31T16:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidInputs -->
+      </class> <!-- IsomorphicTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -15,7 +15,7 @@ public class IsomorphicTests {
 
     @DataProvider(name = "IsomorphicInvalidInputs")
     public static Object[][] invalidInputs() {
-        return new Object[][]{{"aab", "xyz"}, {"abc", "xzz"}};
+        return new Object[][]{{"aab", "xyz"}, {"abc", "xzz"}, {null, null}, {"","abc"}};
     }
 
     @Test(dataProvider = "IsomorphicInputs")
